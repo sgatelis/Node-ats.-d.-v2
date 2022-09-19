@@ -1,0 +1,165 @@
+* {
+  background: yellow;
+  font-size: 20px;
+}
+
+.App {
+  
+  width: 800px;
+  height: 100vh;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.d-flex  {
+  display: flex;
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.grow1 {
+  flex: 1
+}
+
+.grow3 {
+  flex: 3
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+.w500 {
+  width: 500px;
+}
+
+button {
+  background-color: white;
+  box-shadow: 2px 2px blue;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 7px;
+  width: 120px;  
+}
+input {
+  width: 200px;
+  margin: 30px;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 2px 2px blue;
+  border: 1px solid gray;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px whitesmoke;
+  cursor: pointer;
+}
+
+.movies {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.singleMovie {
+  margin: 100px 0;
+}
+
+.toolbar {
+  margin: 20px 0;
+  font-size: 1.2em;  
+}
+
+.toolbar div {
+  margin: 0 60px;
+  width: 160px;
+}
+
+.hall {
+  /* background: white;   */
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.reservation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buy-tickets {
+  width: 150px;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.reserv {
+  background-color: red;
+}
+
+.seat-number {
+  /* background-color: white; */
+  border-radius: 2px;
+}
+
+.info {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info div {
+  margin: 0 20px;
+}
